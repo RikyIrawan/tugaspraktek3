@@ -12,5 +12,11 @@ int main(){
 	
 	cout <<"Masukan jam kerja anda:"; cin >> jk;
 	cout <<"masukan gaji anda per jam:"; cin >> gpj;
+	l=jk-40;
+	jl=l*1.5;
+	jkt=40+jl;
+	gt=jkt*gpj;
+	gb=gt-(0.15*gt);
+	
 	
 }
