@@ -10,4 +10,7 @@ int main(){
 	int gt;
 	int gb;
 	
+	cout <<"Masukan jam kerja anda:"; cin >> jk;
+	cout <<"masukan gaji anda per jam:"; cin >> gpj;
+	
 }
