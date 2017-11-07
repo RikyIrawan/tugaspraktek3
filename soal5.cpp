@@ -10,5 +10,13 @@ int main() {
 cout << "Silahkan masukkan tinggi badan(cm) : "; 
 cin >>tbadan;
 cout << "Silahkan masukkan berat badan(kg) : " ;
-cin >> bbadan; 
+cin >> bbadan;
+
+if (bbadan<tbadan/2.5)
+cout << "  Underweight" << endl;
+else if (tbadan/2.3 < bbadan)
+cout << "  Overweight" << endl;
+else if (tbadan/2.5 <= bbadan <= tbadan/2.3)
+cout << "  Normal" << endl;
+   
 }
